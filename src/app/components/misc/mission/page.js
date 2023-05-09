@@ -6,12 +6,12 @@ const Mission = () => {
     return( 
         <div className="border-b-[0.0625em] border-[#4d4d4d]  ">
     <div className="max-w-[1150px] mx-auto border-x-[0.0625em] border-[#4d4d4d] p-5 ">
-        <div className="flex items-center justify-center my-20">
+        <div className="flex items-center justify-center my-10 md:my-20 ">
         <motion.div
         initial={{opacity: 0}}
         animate={{opacity: 1}}
         transition={{duration: 1.5, delay: 1.5, type: "tween", stiffness: 300}}
-         className="text-[#d3d3d381] font-sans text-3xl md:text-justify text-center">
+         className="text-[#d3d3d381] font-sans  md:text-justify text-center text-lg  md:text-3xl">
             Our mission is to help ensure the integrity of<br />
             the nft space continues to thrive by providing<br />
             clients with a full suite of services to assist<br />

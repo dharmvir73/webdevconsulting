@@ -12,7 +12,7 @@ const GetStarted = () => {
         whileInView={{opacity: 1, y:0}}
         transition={{delay: 0.2, type: 'spring', stiffness:200, duration:0.5, ease: 'easeIn'}}
         viewport={{root: scrollRef}}
-        className="flex items-center justify-center my-20 font-anton md:text-left text-center md:text-9xl text-8xl text-[#d3d3d3]">
+        className="flex items-center justify-center my-10 md:my-20 font-anton md:text-left text-center md:text-9xl text-5xl text-[#d3d3d3]">
         <span  className="mt-[-80px] text-purple-500 hidden md:inline"><HiExternalLink size={40} /></span> 
         GET STARTED
         </motion.div>
