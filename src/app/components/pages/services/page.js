@@ -10,17 +10,13 @@ const Services = () => {
         <div className="max-w-[1150px] mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3">
                 {/** Service 1 */}
-                <div className="border-x-[0.0625em] border-y-[0.0625em] border-[#4d4d4d] flex flex-col p-4 font-sans  h-[90vh]">
+                <div className="border-x-[0.0625em] border-y-[0.0625em] border-[#4d4d4d] flex flex-col p-4 font-sans h-[75vh] md:h-[90vh]">
                     <motion.div
                     className="h-full"
-                    
                     >
                     <div className="border-2 rounded-full w-16 py-1 text-center mb-5 text-purple-500 border-purple-500">S / 1</div>
-                    <motion.h1 initial={{opacity: 0}}
-                    animate={{opacity: 1,}}
-                    transition={{delay: 0.5, duration:0.5, ease:"easeIn", type:"linear", stiffness: 200}}
-                    viewport={{root: scrollRef}} className="font-anton text-4xl mb-5 text-[#d3d3d3]">WEBSITE BUILD</motion.h1>
-                    <article className="text-[#d3d3d381] text-sm mb-5">
+                    <h1 className="font-anton text-4xl mb-5 text-[#d3d3d3]">WEBSITE BUILD</h1>
+                    <article className="text-[#d3d3d381] text-sm mb-10 md:mb-[5]">
                     You'll be pleased to know that we offer website 
                     design and development to help kickstart your project 
                     with a site that you and your community loves. 
@@ -35,10 +31,10 @@ const Services = () => {
                     </motion.div>
                 </div>
                  {/** Service 2 */}
-                <div className="border-y-[0.0625em] border-[#4d4d4d] flex flex-col p-4 font-sans   h-[90vh]">
+                <div className="border-y-[0.0625em] border-[#4d4d4d] flex flex-col p-4 font-sans h-[75vh] md:h-[90vh]">
                     <span className="border-2 rounded-full w-16 py-1 text-center mb-5 text-purple-500 border-purple-500">S / 2</span>
                     <h1 className="font-anton text-4xl mb-5 text-[#d3d3d3]">CONTRACT BUILD</h1>
-                    <article className="text-[#d3d3d381] text-sm mb-5">
+                    <article className="text-[#d3d3d381] text-sm mb-10 md:mb-[5]">
                     You'll be pleased to know that we offer website 
                     design and development to help kickstart your project 
                     with a site that you and your community loves. 
@@ -52,10 +48,10 @@ const Services = () => {
                     </div>
                 </div>
                  {/** Service 3 */}
-                <div className="border-x-[0.0625em] border-y-[0.0625em] border-[#4d4d4d] flex flex-col p-4 font-sans   h-[90vh]">
+                <div className="border-x-[0.0625em] border-y-[0.0625em] border-[#4d4d4d] flex flex-col p-4 font-sans h-[75vh] md:h-[90vh]">
                     <span className="border-2 rounded-full w-16 py-1 text-center mb-5 text-purple-500 border-purple-500">S / 3</span>
                     <h1 className="font-anton text-4xl mb-5 text-[#d3d3d3]">EMERGENCY BUILD</h1>
-                    <article className="text-[#d3d3d381] text-sm mb-5">
+                    <article className="text-[#d3d3d381] text-sm mb-10 md:mb-[5]">
                     You'll be pleased to know that we offer website 
                     design and development to help kickstart your project 
                     with a site that you and your community loves. 
@@ -69,10 +65,10 @@ const Services = () => {
                     </div>
                 </div>
                     {/** Service 4 */}
-                <div className="border-x-[0.0625em] border-[#4d4d4d] flex flex-col p-4 font-sans   h-[90vh]">
+                <div className="border-x-[0.0625em] border-[#4d4d4d] flex flex-col p-4 font-sans h-[75vh] md:h-[90vh]">
                     <span className="border-2 rounded-full w-16 py-1 text-center mb-5 text-purple-500 border-purple-500">S / 4</span>
                     <h1 className="font-anton text-4xl mb-5 text-[#d3d3d3]">CONSULTING</h1>
-                    <article className="text-[#d3d3d381] text-sm mb-5">
+                    <article className="text-[#d3d3d381] text-sm mb-10 md:mb-[5]">
                     You'll be pleased to know that we offer website 
                     design and development to help kickstart your project 
                     with a site that you and your community loves. 
@@ -86,10 +82,10 @@ const Services = () => {
                     </div>
                 </div>
                         {/** Service 5 */}
-                <div className="  border-[#4d4d4d] flex flex-col p-4 font-sans   h-[90vh]">
+                <div className="  border-[#4d4d4d] flex flex-col p-4 font-sans h-[75vh] md:h-[90vh]">
                     <span className="border-2 rounded-full w-16 py-1 text-center mb-5 text-purple-500 border-purple-500">S / 5</span>
                     <h1 className="font-anton text-4xl mb-5 text-[#d3d3d3]">SEO OPTIMIZATION</h1>
-                    <article className="text-[#d3d3d381] text-sm mb-5">
+                    <article className="text-[#d3d3d381] text-sm mb-10 md:mb-[5]">
                     You'll be pleased to know that we offer website 
                     design and development to help kickstart your project 
                     with a site that you and your community loves. 

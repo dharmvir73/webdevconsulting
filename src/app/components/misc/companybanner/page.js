@@ -1,3 +1,4 @@
+ 
 import {HiExternalLink} from "react-icons/hi"
 
 const CompanyBanner = () => {

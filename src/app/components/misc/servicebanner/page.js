@@ -1,7 +1,8 @@
 'use client';
 import { useRef } from "react";
-import {HiExternalLink} from "react-icons/hi"
 import { motion } from "framer-motion"; 
+import {HiExternalLink} from "react-icons/hi"
+
 
 const ServiceBanner = () => {
     const scrollRef = useRef();

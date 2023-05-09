@@ -26,8 +26,6 @@ const SideBar = ({handleToggle}) => {
                 <div className="h-[100vh] w-[50%]">
                 <button onClick={handleToggle} className="text-white">Close</button>
                 </div>
-
-
             </motion.div>
         </div>
         </>
