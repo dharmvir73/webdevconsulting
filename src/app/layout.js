@@ -1,7 +1,21 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Anton, Fjalla_One} from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+
+
+const anton = Anton({
+    weight: "400",
+    subsets:  ["latin"],
+    variable: '--font-anton',
+})
+
+const fjalla_one = Fjalla_One({
+  weight: "400",
+  subsets:  ["latin"],
+  variable: '--font-fjalla',
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -9,9 +23,12 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
+
+
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className='scroll-smooth'>
+      <body className={`${inter.variable} ${anton.variable} ${fjalla_one.variable}`} >{children}</body>
     </html>
   )
 }
