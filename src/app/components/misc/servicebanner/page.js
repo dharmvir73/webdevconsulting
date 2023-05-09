@@ -3,7 +3,7 @@ import { useRef } from "react";
 import {HiExternalLink} from "react-icons/hi"
 import { motion } from "framer-motion"; 
 
-const servicebanner = () => {
+const ServiceBanner = () => {
     const scrollRef = useRef();
     return(
         <div className="max-w-[1150px] mx-auto border-x-[0.0625em] border-[#4d4d4d] p-5 " id="services">
@@ -20,4 +20,4 @@ const servicebanner = () => {
     );
 } 
 
-export default servicebanner;
+export default ServiceBanner;

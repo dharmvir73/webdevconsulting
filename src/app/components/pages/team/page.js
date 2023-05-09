@@ -1,6 +1,6 @@
 
 
-const team = () => {
+const Team = () => {
 
     return(
         <div className="max-w-[1150px] mx-auto border-x-[0.0625em] border-[#4d4d4d]">
@@ -16,4 +16,4 @@ const team = () => {
     );
 } 
 
-export default team;
+export default Team;

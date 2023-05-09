@@ -5,7 +5,7 @@ import {BsLaptop} from "react-icons/bs"
 import {AiOutlineCopyright} from "react-icons/ai"
 import { motion } from "framer-motion"
 
-const information = () => {
+const Information = () => {
 
     return(
         <div className="border-y-[0.0625em] border-[#4d4d4d] py-[20px] overflow-hidden"> 
@@ -45,4 +45,4 @@ const information = () => {
 
 }
 
-export default information;
+export default Information;

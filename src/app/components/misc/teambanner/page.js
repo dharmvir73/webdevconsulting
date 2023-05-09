@@ -1,6 +1,6 @@
 import {HiExternalLink} from "react-icons/hi"
 
-const teambanner = () => {
+const TeamBanner = () => {
 
     return(
         <div className="border-t-[0.0625em] border-[#4d4d4d]" id="team">
@@ -14,4 +14,4 @@ const teambanner = () => {
     );
 } 
 
-export default teambanner;
+export default TeamBanner;

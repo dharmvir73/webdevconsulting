@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import SideBar from "../sidebar/page";
-const header = () => {
+const Header = () => {
 
     const [toggle, setToggle] = useState(false)
 
@@ -40,4 +40,4 @@ const header = () => {
     );
 }
 
-export default header;
+export default Header;

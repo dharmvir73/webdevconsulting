@@ -1,6 +1,6 @@
 import {HiExternalLink} from "react-icons/hi"
 
-const companybanner = () => {
+const CompanyBanner = () => {
 
     return(
         <div className="border-t-[0.0625em] border-[#4d4d4d]">
@@ -13,4 +13,4 @@ const companybanner = () => {
     );
 } 
 
-export default companybanner;
+export default CompanyBanner;

@@ -2,7 +2,7 @@
 
 import {motion} from "framer-motion" 
 
-const sidebar = ({handleToggle}) => {
+const SideBar = ({handleToggle}) => {
     return(
         <>
         <div className="relative">
@@ -35,4 +35,4 @@ const sidebar = ({handleToggle}) => {
 }
 
 
-export default sidebar;
+export default SideBar;

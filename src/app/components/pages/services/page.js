@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
-const services = () => {
+const Services = () => {
 
     const scrollRef = useRef(null);
 
@@ -117,4 +117,4 @@ const services = () => {
 }
 
 
-export default services;
+export default Services;

@@ -1,6 +1,6 @@
 import {HiExternalLink} from "react-icons/hi"
 
-const getstarted = () => {
+const GetStarted = () => {
 
     return(
         <div className="border-t-[0.0625em] border-[#4d4d4d]" id="contact">
@@ -14,4 +14,4 @@ const getstarted = () => {
     );  
 } 
 
-export default getstarted;
+export default GetStarted;

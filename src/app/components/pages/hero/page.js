@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import TextTransition, { presets } from 'react-text-transition';
 
-const hero = () => {
+const Hero = () => {
 
     const [index, setIndex] = useState(0);
 
@@ -66,4 +66,4 @@ const hero = () => {
 };
 
 
-export default hero;        
+export default Hero;        

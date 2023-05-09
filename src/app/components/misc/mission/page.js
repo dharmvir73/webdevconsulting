@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const mission = () => {
+const Mission = () => {
     return( 
         <div className="border-b-[0.0625em] border-[#4d4d4d]  ">
     <div className="max-w-[1150px] mx-auto border-x-[0.0625em] border-[#4d4d4d] p-5 ">
@@ -27,4 +27,4 @@ const mission = () => {
     )
 }
 
-export default mission;
+export default Mission;

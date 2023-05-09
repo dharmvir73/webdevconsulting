@@ -1,4 +1,4 @@
-const footer = () => {
+const Footer = () => {
 
     return(
         <div className="border-y-[0.0625em] border-[#4d4d4d] py-[20px]"> 
@@ -22,4 +22,4 @@ const footer = () => {
 
 }
 
-export default footer;
+export default Footer;

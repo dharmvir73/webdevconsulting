@@ -1,6 +1,6 @@
 
 
-const contact = () => {
+const Contact = () => {
 
     return(
         <div className="max-w-[1150px] mx-auto border-x-[0.0625em] border-[#4d4d4d]">
@@ -34,4 +34,4 @@ const contact = () => {
     );
 } 
 
-export default contact; 
+export default Contact; 
