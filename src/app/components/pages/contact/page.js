@@ -24,7 +24,7 @@ const Contact = () => {
                 <span className="font-sans w-[50%]"><span className="text-purple-500">04.&nbsp;</span>MESSAGE</span>
                 <input type="text" placeholder="Your Message" className="w-[50%] bg-[#0000] outline-none font-sans text-white"/>
             </div>
-            <div className="flex items-center justify-center text-[#d3d3d3] py-20 px-5 border-t-[0.0625em] border-[#4d4d4d]">
+            <div className="flex items-center justify-center text-[#d3d3d3] py-10 md:py-20 px-5 border-t-[0.0625em] border-[#4d4d4d]">
                <button className="text-xl font-semibold px-16 py-5 border-4 border-purple-500 rounded-full font-sans transition-all duration-200 ease-linear
                hover:bg-purple-500">
              SEND QUERY

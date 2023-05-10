@@ -82,7 +82,7 @@ const Services = () => {
                     </div>
                 </div>
                         {/** Service 5 */}
-                <div className="flex flex-col p-4 font-sans h-[75vh] md:h-[90vh]">
+                <div className="flex flex-col p-4 font-sans h-[75vh] md:h-[90vh] border-t-[0.0625em] md:border-t-0">
                     <span className="border-2 rounded-full w-16 py-1 text-center mb-5 text-purple-500 border-purple-500">S / 5</span>
                     <h1 className="font-anton text-4xl mb-5 text-[#d3d3d3]">SEO OPTIMIZATION</h1>
                     <article className="text-[#d3d3d381] text-sm mb-10 md:mb-[5]">
@@ -99,7 +99,7 @@ const Services = () => {
                     </div>
                 </div>
                         {/** Service 6 */}
-                <div className="border-x-[0.0625em]  border-[#4d4d4d] 
+                <div className="border-x-0 border-t-[0.0625em] md:border-x-[0.0625em] border-[#4d4d4d] 
                 flex flex-col items-center justify-center p-4 font-sans h-[90vh] text-center">
                     
                     <h1 className="font-anton text-4xl mb-10 text-[#d3d3d3]">/ ARE YOU READY TO SCALE YOUR PROJECT</h1>
