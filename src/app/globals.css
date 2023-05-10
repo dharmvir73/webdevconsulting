@@ -2,12 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 :root {
   --color: #fff;
   --background: #000;
-  --Anton: font-family: 'Anton', sans-serif;
 }
 
 body {

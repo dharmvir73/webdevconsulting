@@ -17,7 +17,7 @@ const Header = () => {
             <div className="max-w-[1150px] mx-auto py-[15px]">
                 <div className="flex items-center justify-between w-[100%]">
                     <div className="w-[20%] ml-2 flex text-[#dcdcdc] transition duration-300 ease-in-out cursor-pointer hover:text-purple-500 ">
-                        <h1 className="font-anton text-2xl  ">WEBDEVCONSULTING</h1>
+                        <h1 className="font-anton text-2xl">WEBDEVCONSULTING</h1>
                         <span className="ml-[1px] text-[11px]">&reg;</span>
                     </div>
                    

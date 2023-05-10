@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Team = () => {
 
     return(
-        <div className="max-w-[1150px] mx-auto border-x-[0.0625em] border-[#4d4d4d]">
+        <div className="max-w-[1150px] mx-auto border-x-[0] md:border-x-[0.0625em] border-[#4d4d4d]">
             <div className="md:flex-row flex-col flex items-center justify-between text-[#d3d3d3]  hover:text-purple-500  py-10 px-5">
                 <span className="font-anton text-5xl md:text-7xl absolute">/ VEER</span>
                 <motion.img 

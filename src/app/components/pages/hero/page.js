@@ -19,7 +19,7 @@ const Hero = () => {
       }, []);
 
     return (
-        <div className="max-w-[1150px] mx-auto border-x-[0.0625em] border-[#4d4d4d] p-5">
+        <div className="max-w-[1150px] mx-auto border-x-[0]  md:border-x-[0.0625em] border-[#4d4d4d] p-5">
             <div className=" text-[#d3d3d3] md:text-9xl text-8xl  md:flex-row flex flex-col flex-wrap font-anton overflow-hidden">
             <motion.h1  
             initial={{x: -500,}}

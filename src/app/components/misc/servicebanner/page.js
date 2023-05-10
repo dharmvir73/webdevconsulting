@@ -7,7 +7,7 @@ import {HiExternalLink} from "react-icons/hi"
 const ServiceBanner = () => {
     const scrollRef = useRef();
     return(
-        <div className="max-w-[1150px] mx-auto border-x-[0.0625em] border-[#4d4d4d] p-5 " id="services">
+        <div className="max-w-[1150px] mx-auto border-x-[0]  md:border-x-[0.0625em] border-[#4d4d4d] p-5 " id="services">
             <motion.div
             initial={{opacity: 0, y: 200}}
             whileInView={{opacity: 1, y:0}}
