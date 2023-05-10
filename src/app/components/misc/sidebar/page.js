@@ -39,22 +39,22 @@ const SideBar = ({handleToggle}) => {
                         <button onClick={handleToggle} className="text-white p-4 pr-5 text-2xl">X</button>
                     </div>
                 </div>
-                <div className="h-[70vh] flex flex-col justify-center items-center py-28 gap-14 text-3xl font-sans font-semibold text-purple-white">
-                    <span className="w-40">
-                        <span className="text-lg text-purple-500"> 01 </span>
-                        <a href="#" onClick={handleToggle} className="hover:text-purple-500 hover:cursor-pointer">HOME</a>
+                <div className="h-[70vh] flex flex-col justify-center items-center py-28 gap-14 text-4xl font-sans font-semibold">
+                    <span className="w-[200px]">
+                        <span className="text-lg text-purple-200 mr-2"> 01 </span>
+                        <a href="#" onClick={handleToggle} className="text-purple-200 hover:text-white hover:cursor-pointer">HOME</a>
                     </span>
-                    <span className="w-40">
-                        <span className="text-lg text-purple-500"> 02 </span>
-                   <a href="#services" onClick={handleToggle} className="hover:text-purple-500 hover:cursor-pointer">SERVICES</a>
+                    <span className="w-[200px]">
+                        <span className="text-lg text-purple-300 mr-2"> 02 </span>
+                   <a href="#services" onClick={handleToggle} className="text-purple-300 hover:text-white hover:cursor-pointer">SERVICES</a>
                    </span> 
-                   <span className="w-40">
-                        <span className="text-lg text-purple-500"> 03 </span>
-                   <a href="#team" onClick={handleToggle} className="hover:text-purple-500 hover:cursor-pointer">TEAM</a>
+                   <span className="w-[200px]">
+                        <span className="text-lg text-purple-400 mr-2"> 03 </span>
+                   <a href="#team" onClick={handleToggle} className="text-purple-400 hover:text-white hover:cursor-pointer">TEAM</a>
                    </span>
-                   <span className="w-40">
-                        <span className="text-lg text-purple-500"> 03 </span>
-                   <a href="#contact" onClick={handleToggle} className="hover:text-purple-500 hover:cursor-pointer">CONTACT</a>
+                   <span className="w-[200px]">
+                        <span className="text-lg text-purple-500 mr-2"> 04 </span>
+                   <a href="#contact" onClick={handleToggle} className="text-purple-500 hover:text-white hover:cursor-pointer">CONTACT</a>
                    </span> 
                 </div>
 
