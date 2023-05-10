@@ -32,14 +32,14 @@ const SideBar = ({handleToggle}) => {
                
                 <div className="h-[10vh] w-full text-right flex border-b-[0.0625em] border-[#4d4d4d]">
                     <div className="w-1/2 text-center py-5 text-purple-500 flex items-center justify-center">
-                        <h1 className="font-sans font-semibold text-2xl">WEBDEVCONSULTING</h1>
+                        <h1 className="font-anton text-2xl">WEBDEVCONSULTING</h1>
                         <span className="ml-[1px] text-[11px] mt-[-5px]">&reg;</span>
                     </div>
                     <div className="w-1/2">
                         <button onClick={handleToggle} className="text-white p-4 pr-5 text-2xl">X</button>
                     </div>
                 </div>
-                <div className="h-[70vh] flex flex-col justify-center items-center py-28 gap-14 text-3xl font-anton text-purple-white">
+                <div className="h-[70vh] flex flex-col justify-center items-center py-28 gap-14 text-3xl font-sans font-semibold text-purple-white">
                     <span className="w-40">
                         <span className="text-lg text-purple-500"> 01 </span>
                         <a href="#" onClick={handleToggle} className="hover:text-purple-500 hover:cursor-pointer">HOME</a>
