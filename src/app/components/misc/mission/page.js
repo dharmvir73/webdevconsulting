@@ -6,7 +6,7 @@ const Mission = () => {
     return( 
         <div className="border-b-[0.0625em] border-[#4d4d4d]  ">
     <div className="max-w-[1150px] mx-auto border-x-[0]  md:border-x-[0.0625em] border-[#4d4d4d] p-5 ">
-        <div className="flex items-center justify-center my-10 md:my-20 ">
+        <div className="flex items-center justify-center my-10 md:my-20 w-full">
         <motion.div
         initial={{opacity: 0}}
         animate={{opacity: 1}}
