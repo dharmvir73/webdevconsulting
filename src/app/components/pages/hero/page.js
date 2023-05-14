@@ -25,20 +25,15 @@ const Hero = () => {
             initial={{x: -500,}}
             animate={{x: 0}}
             transition={{duration: 1, ease: "easeIn", type: "tween"}}>
-                WE&nbsp;
+                WE&nbsp;HELP&nbsp;
             </motion.h1>
-            <motion.h1
-            initial={{y: 500}}
-            animate={{y: 0}}
-            transition={{duration: 1, ease:"easeIn", type: "tween"}}>
-                HELP&nbsp;
-            </motion.h1>
+          
             <motion.h1
             ease-in
             initial={{x:1000}}
             animate={{x:0}}
             transition={{duration: 0.6, ease:"easeIn", type: "tween"}}>
-                TO&nbsp;BUILD&nbsp;&nbsp;
+                TO&nbsp;BUILD&nbsp;
                 </motion.h1>
             <span  className="flex md:flex-row flex-col ">
             <span>

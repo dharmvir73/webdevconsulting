@@ -28,10 +28,10 @@ const Header = () => {
                         <span className="px-3 hover:text-purple-500"><a href="#contact">CONTACT</a></span> 
                     </nav>
     
-                    <div className="w-[20%] h-[20px] flex flex-col gap-2 justify-center items-end cursor-pointer mr-2" onClick={handleToggle}>
-                        <span className="h-[1px] w-[35px] bg-purple-500 "></span>
-                        <span className="h-[3px] w-[35px] bg-purple-500" ></span>
-                        <span className="h-[1px] w-[35px] bg-purple-500"></span>
+                    <div className="w-[20%] h-full flex flex-col gap-2 justify-center items-end cursor-pointer mr-2" onClick={handleToggle}>
+                        <span className="h-[2px] w-[30px] bg-purple-500 "></span>
+                        <span className="h-[2px] w-[20px] bg-purple-500 "></span>
+                        <span className="h-[2px] w-[30px] bg-purple-500 "></span>
                     </div>
                 </div>
             </div> }

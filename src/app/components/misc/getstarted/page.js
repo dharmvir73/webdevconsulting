@@ -8,7 +8,7 @@ const GetStarted = () => {
     return(
         <div className="max-w-[1150px] mx-auto border-x-[0] md:border-x-[0.0625em] border-y-[0.0625em] border-[#4d4d4d] p-5 " id="contact">
         <motion.div
-        initial={{opacity: 0, y: 200}}
+        initial={{opacity: 0, y: 100}}
         whileInView={{opacity: 1, y:0}}
         transition={{delay: 0.2, type: 'spring', stiffness:200, duration:0.5, ease: 'easeIn'}}
         viewport={{root: scrollRef}}

@@ -1,6 +1,7 @@
 'use client'
 
 import {motion} from "framer-motion" 
+import { AiFillCloseCircle } from "react-icons/ai"
 
 const SideBar = ({handleToggle}) => {
     return(
@@ -28,18 +29,20 @@ const SideBar = ({handleToggle}) => {
                 initial={{opacity: 0}}
                 animate={{opacity: 1}}
                 transition={{delay: 1, duration: 1,}}
-                className="h-[100vh] w-full md:w-[50%]  border-l-[0.0625em] border-[#4d4d4d]">
+                className="h-[100vh] w-full md:w-[50%]  md:border-l-[0.0625em] border-l-0  border-[#4d4d4d]">
                
-                <div className="h-[10vh] w-full text-right flex border-b-[0.0625em] border-[#4d4d4d]">
-                    <div className="w-1/2 text-center py-5 text-purple-500 flex items-center justify-center">
+                <div className="h-[8vh] md:h-[10vh] w-full text-right flex border-b-[0.0625em] border-[#4d4d4d]">
+                    <div className="w-1/2 text-center text-purple-500 flex items-center justify-center">
                         <h1 className="font-anton text-2xl">WEBDEVCONSULTING</h1>
-                        <span className="ml-[1px] text-[11px] mt-[-5px]">&reg;</span>
+                        <span className="ml-[1px] text-[11px] mt-[-12px]">&reg;</span>
                     </div>
                     <div className="w-1/2">
-                        <button onClick={handleToggle} className="text-white p-4 pr-5 text-2xl">X</button>
+                        <button onClick={handleToggle} className="p-4 pr-5 text-2xl text-purple-500 outline-none">
+                            <AiFillCloseCircle size={35}/>
+                        </button>
                     </div>
                 </div>
-                <div className="h-[70vh] flex flex-col justify-center items-center py-28 gap-14 text-4xl font-sans font-semibold">
+                <div className="h-[78vh] flex flex-col justify-center items-center py-28 gap-14 text-4xl font-sans font-semibold">
                     <span className="w-[200px]">
                         <span className="text-lg text-purple-200 mr-2"> 01 </span>
                         <a href="#" onClick={handleToggle} className="text-purple-200 hover:text-white hover:cursor-pointer">HOME</a>
